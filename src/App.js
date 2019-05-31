@@ -1,12 +1,13 @@
-import './scss/_init.scss'
+
 import React, { Component } from 'react'
-import Counter from './components/Counter/Counter'
+import TeeList from "./components/teeList";
+
 
 export default class App extends Component {
 
   render () {
     return (
-      <Counter/>
+      <TeeList/>
     )
   }
 
